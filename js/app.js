@@ -3,10 +3,13 @@ function alterarStatus(id) {
     let imagem = gameClicado.querySelector('.dashboard__item__img');
     let botao = gameClicado.querySelector('.dashboard__item__button');
 
-    // Aqui começamos a verificar se o jogo já está alugado
     if (imagem.classList.contains('dashboard__item__img--rented')) {
-        // Lógica para quando o jogo está alugado (devolver)
+        imagem.classList.remove('dashboard__item__img--rented');
+        botao.classList.remove('dashboard__item__button--return');
+        botao.textContent = "Alugar";
     } else {
-        // Lógica para quando o jogo está disponível (alugar)
+        imagem.classList.add('dashboard__item__img--rented');
+        botao.classList.add('dashboard__item__button--return');
+        botao.textContent = "Devolver";
     }
 }
