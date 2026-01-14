@@ -30,7 +30,7 @@ Este projeto faz parte da minha jornada de aprendizado em desenvolvimento web e 
 - **Git e GitHub:** Versionamento de código.
 
 ## 🚀 Como executar o projeto
-
-1. Clone o repositório:
+1. > Acesse o projeto online: [Clique Aqui](https://joaopedrofernandes1337.github.io/Alu-Games/)
+2. Clone o repositório:
 ```bash
 git clone [[https://github.com/SEU-USUARIO/alugames.git]](https://github.com/JoaoPedroFernandes1337/Alu-Games.git)
